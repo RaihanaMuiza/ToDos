@@ -1,0 +1,118 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+  width: 100%;
+  color: darkgray;
+  background-color: aqua;
+  font-size: 72px;
+  font-family: 'Bigelow Rules';
+  display: flex;
+  justify-content: center;
+}
+
+.body{
+  padding: 0%;
+  margin: 0%;
+}
+
+.header{
+  flex: 30%;
+  background-color: aqua;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .inputContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.header input{
+  width: 250px;
+  height: 50px;
+  padding-left: 10px;
+  font-size: 18px;
+  border: none;
+  margin-right: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header button{
+  width: 100px;
+  height: 50px;
+  border: none;
+  padding-left: 10px;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.todoList{
+  flex: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.task{
+  width: 500px;
+  height: 50px;
+  display: flex;
+  color: white;
+  margin: 15px;
+}
+
+.task .content{
+  flex: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task .content span {
+  display : grid;
+  place-items: center;
+  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  background-color: turquoise;
+}
+
+.task button{
+  flex: 20%;
+  height: 100%;
+  border: none;
+  background-color: lightseagreen;
+  color: white;
+  cursor: pointer;
+}
+
+.completeStatus{
+  flex: 20%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.datePicker{
+  background-color: aqua;
+  padding-bottom: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
